@@ -36,6 +36,10 @@ section {
   margin-top: 30px;
 }
 
+h2 {
+  margin-bottom: 15px !important;
+}
+
 a {
   color: #000 !important;
 }
