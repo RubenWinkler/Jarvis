@@ -1,3 +1,15 @@
+/* === FARBEN === */
+
+/*
+Jobware-Orange: #FF5D02
+Jobware-Blau: #122e45
+Hintergrund-Hellgrau: #ECEEEF
+weiß: #FFF
+schwarz: #000
+*/
+
+/* === GLOBAL === */
+
 * {
     box-sizing: border-box;
 }
@@ -12,66 +24,24 @@ body {
 	padding-bottom: 45px;
 }
 
+/* === GENERELLES === */
+
 main {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
+section {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 a {
-  color: black !important;
-}
-
-nav a {
-  color: white !important;
-}
-
-.table td, .table th {
-    padding: 5px !important;
-}
-
-.navbar-brand {
-  color: #ff5d02 !important;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.btn-primary {
-  background-color: #ff5d02 !important;
-  border-color: #ff5d08 !important;
-  margin: 15px 0 0 0;
-}
-
-#pagination {
-  margin: 20px 0 20px 0;
+  color: #000 !important;
 }
 
 a.page-link {
-  color: black !important;
-}
-
-.action {
-  width: 75px;
-}
-
-.collapse-container {
-  display: inline-block;
-}
-
-#modal_submit_button {
-  margin-top: 0;
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 45px;
-  background-color: #122e45;
-  color: white;
-  padding-top: 10px;
-
+  color: #000 !important;
 }
 
 .active {
@@ -79,30 +49,6 @@ footer {
 	height: 100% !important;
 	margin-top: 0;
 	padding-top: 12px !important;
-}
-
-.navbar {
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  height: 50px;
-}
-
-.nav-link {
-	height: 100%;
-	margin-top: 0;
-	padding-top: 12px !important;
-}
-
-#navbarNavDropdown {
-  height: 100%;
-}
-
-#navbarNavDropdown > ul {
-  height: 100%;
-}
-
-#navbarNavDropdown > ul > li {
-  height: 100%;
 }
 
 .content {
@@ -121,22 +67,97 @@ footer {
   margin-right: 30px;
 }
 
-#tabellen_kundeninformationen {
-  margin-top: 20px;
-}
-
 .grey-area {
-  background-color: #eceeef;
+  background-color: #ECEEEF;
   border-radius: 0.25rem;
   padding: 15px;
   margin-bottom: 20px;
+}
+
+.pagination {
+  margin: 20px 0 20px 0;
+}
+
+.action {
+  width: 75px;
+}
+
+.collapse-container {
+  display: inline-block;
+}
+
+/* === NAVBAR === */
+
+nav a {
+  color: #FFF !important;
+}
+
+#navbarNavDropdown {
+  height: 100%;
+}
+
+#navbarNavDropdown > ul {
+  height: 100%;
+}
+
+#navbarNavDropdown > ul > li {
+  height: 100%;
+}
+
+.navbar-brand {
+  color: #FF5D02 !important;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  height: 50px;
+}
+
+.nav-link {
+	height: 100%;
+	margin-top: 0;
+	padding-top: 12px !important;
+}
+
+/* === BUTTONS === */
+
+.btn-primary {
+  background-color: #FF5D02 !important;
+  border-color: #ff5d08 !important;
+  margin: 0 0 0 0;
+}
+
+#modal_submit_button {
+  margin-top: 0;
+}
+
+/* === TABELLEN === */
+
+.table td, .table th {
+    padding: 5px !important;
+}
+
+#tabellen_kundeninformationen {
+  margin-top: 20px;
 }
 
 .icons-td {
   min-width: 70px;
 }
 
-section {
-  margin-bottom: 30px;
-  margin-top: 30px;
+/* === FOOTER === */
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #122e45;
+  color: #FFF;
+  padding-top: 10px;
 }

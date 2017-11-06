@@ -66,7 +66,7 @@
   </div>
 
   <!-- Pagination -->
-  <nav aria-label="Page navigation example" id="pagination">
+  <nav aria-label="Pagination">
     <ul class="pagination pagination-sm">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
@@ -490,7 +490,7 @@
   </section>
 
   <!-- Pagination -->
-  <nav aria-label="Page navigation example" id="pagination">
+  <nav aria-label="Pagination">
     <ul class="pagination pagination-sm">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">

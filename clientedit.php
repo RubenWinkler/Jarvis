@@ -59,7 +59,7 @@
 		<div class="form-group row">
 			<label for="create_client_connection_type" class="col-sm-2 col-form-label">Connection Type:</label>
 			<div class="col-sm-4">
-				<select class="custom-select" id="create_client_connection_type">
+				<select id="create_client_connection_type">
 				  <option selected></option>
 				  <option value="1">HTML</option>
 				</select>
@@ -75,6 +75,12 @@
 			<label for="create_client_date_created" class="col-sm-2 col-form-label">Date Created:</label>
 			<div class="col-sm-4">
 				<input type="date" class="form-control" id="create_client_date_created">
+			</div>
+		</div>
+		<div class="form-group row">
+			<div class="offset-sm-2 col-sm-10">
+				<button type="submit" class="btn btn-primary" id="client_edit_save">Speichern</button>
+				<button type="submit" class="btn btn-secondary" id="client_edit_cancel">Abbrechen</button>
 			</div>
 		</div>
 	</form>
