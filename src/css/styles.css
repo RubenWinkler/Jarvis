@@ -40,6 +40,10 @@ h2 {
   margin-bottom: 15px !important;
 }
 
+br {
+  line-height: 10em;
+}
+
 a {
   color: #000 !important;
 }
@@ -79,15 +83,20 @@ a.page-link {
 }
 
 .pagination {
-  margin: 20px 0 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 .action {
-  width: 75px;
+  width: 100px;
 }
 
 .collapse-container {
   display: inline-block;
+}
+
+.fa-pencil-square-o, .fa-bug {
+  margin-top: 10px !important;
+  margin-left: 6px;
 }
 
 /* === NAVBAR === */
@@ -136,6 +145,26 @@ nav a {
 
 #modal_submit_button {
   margin-top: 0;
+}
+
+.no-btn {
+  background-color: transparent !important;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 0 !important;
+  border: none;
+}
+
+.btn-back {
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  color: #FF5D02 !important;
+  border: 2px solid #FF5D02 !important;
+  padding: 6px 12px !important;
 }
 
 /* === TABELLEN === */

@@ -7,7 +7,7 @@
 
   <h2>Kundeninformationen</h2>
 
-    <a href="clients.php"><button type="button" class="btn btn-sm btn-primary">Zurück</button></a>
+    <a href="clients.php"><button type="button" class="btn btn-sm btn-primary btn-back">Zurück</button></a>
 
     <br />
 
@@ -198,7 +198,7 @@
                        <i class="fa fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
-                   <th>Action</th>
+                   <th class="action">Action</th>
                 </tr>
              </thead>
              <tbody>
@@ -219,9 +219,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -237,9 +237,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -257,9 +257,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -407,7 +407,7 @@
                        <i class="fa fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
-                   <th>Action</th>
+                   <th class="action">Action</th>
                 </tr>
              </thead>
              <tbody>
@@ -435,9 +435,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -465,9 +465,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -495,9 +495,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -525,9 +525,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -555,9 +555,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -585,9 +585,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -615,9 +615,9 @@
                        </a>
                      </span>
                      <span>
-                       <a href="">
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
                          <i class="fa fa-trash-o" aria-hidden="true"></i>
-                       </a>
+                       </button>
                      </span>
                    </td>
                 </tr>
@@ -736,6 +736,52 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
           <button type="submit" class="btn btn-primary" id="modal_submit_button">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Eigenschaft-löschen-Modal -->
+  <div class="modal fade" id="deletePropertyModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="deletePropertyModalLabel">Eigenschaft wirklich löschen?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="get" action="">
+            <span>Das Löschen kann nicht rückgängig gemacht werden.</span>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="submit" class="btn btn-primary" id="modal_submit_button">Löschen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- XPath-löschen-Modal -->
+  <div class="modal fade" id="deleteXpathModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="deleteXpathModalLabel">XPath wirklich löschen?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="get" action="">
+            <span>Das Löschen kann nicht rückgängig gemacht werden.</span>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="submit" class="btn btn-primary" id="modal_submit_button">Löschen</button>
         </div>
       </div>
     </div>
