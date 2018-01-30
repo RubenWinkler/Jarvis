@@ -40,10 +40,6 @@ h2 {
   margin-bottom: 15px !important;
 }
 
-br {
-  line-height: 10em;
-}
-
 a {
   color: #000 !important;
 }
@@ -99,6 +95,21 @@ a.page-link {
   margin-left: 6px;
 }
 
+.ok {
+  color: #155724;
+  background-color: #d4edda;
+}
+
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.in-progress {
+  color: #856404;
+  background-color: #fff3cd;
+}
+
 /* === NAVBAR === */
 
 nav a {
@@ -133,6 +144,18 @@ nav a {
 	height: 100%;
 	margin-top: 0;
 	padding-top: 12px !important;
+}
+
+.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+  background-color: #122e45 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #FFF !important;
+    text-decoration: none;
+    background-color: #183e5e !important;
 }
 
 /* === BUTTONS === */
@@ -181,6 +204,10 @@ nav a {
   min-width: 70px;
 }
 
+.table-not-full-width {
+  width: auto !important;
+}
+
 /* === FOOTER === */
 
 footer {
@@ -193,4 +220,10 @@ footer {
   background-color: #122e45;
   color: #FFF;
   padding-top: 10px;
+}
+
+/* === DASHBOARD === */
+
+.card {
+  margin-bottom: 2rem;
 }

@@ -10,19 +10,27 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="clients.php">Kunden<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="clients.php">Clientverwaltung</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="synchronizations.php">Synchronisationen</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="advertisements.php">Anzeigen</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="errors.php">Fehler</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="property.php">Eigenschaften</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="xpath.php">XPath</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sonstiges
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="property.php">Properties</a>
+          <a class="dropdown-item" href="xpath.php">XPaths</a>
+          <a class="dropdown-item" href="">Tickets</a>
+          <a class="dropdown-item" href="">Dokumentation</a>
+        </div>
       </li>
     </ul>
   </div>

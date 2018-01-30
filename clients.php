@@ -5,7 +5,7 @@
 <!-- Hauptbereich -->
 <main class="container-fluid">
 
-  <h2>Kunden</h2>
+  <h2>Clientverwaltung</h2>
 
   <!-- Neuen-Kunde-erstellen-Button -->
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newClientModal">Neuen Kunden erstellen</button>
@@ -1309,9 +1309,6 @@
       </li>
     </ul>
   </nav>
-
-  <!-- Neuen-Kunde-erstellen-Button -->
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newClientModal">Neuen Kunden erstellen</button>
 
   <!-- Kunden-löschen-Modal -->
   <div class="modal fade" id="deleteClientModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
