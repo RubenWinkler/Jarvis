@@ -32,11 +32,12 @@ main {
 }
 
 section {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
-h2 {
+h1, h2, h3, h4 {
+  margin-top: 15px !important;
   margin-bottom: 15px !important;
 }
 
@@ -63,6 +64,10 @@ a.page-link {
   margin-top: 50px;
 }
 
+.pagination {
+  margin-top: 20px;
+}
+
 .no-padding {
   padding: 0 !important;
 }
@@ -76,10 +81,6 @@ a.page-link {
   border-radius: 0.25rem;
   padding: 15px;
   margin-bottom: 20px;
-}
-
-.pagination {
-  margin: 10px 0 20px 0;
 }
 
 .action {
@@ -163,11 +164,7 @@ nav a {
 .btn-primary {
   background-color: #FF5D02 !important;
   border-color: #ff5d08 !important;
-  margin: 0 0 0 0;
-}
-
-#modal_submit_button {
-  margin-top: 0;
+  margin: .4rem 0 .6rem 0;
 }
 
 .no-btn {

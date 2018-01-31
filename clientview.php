@@ -1,58 +1,23 @@
-<?php $page_title = "Kundeninformationen | Jarvis" ?>
+<?php $page_title = "Clientinformationen | Jarvis" ?>
 <?php require_once("src/assets/head.php"); ?>
 <?php require_once("src/assets/navbar.php"); ?>
 
 <!-- Hauptbereich -->
 <main class="container-fluid">
 
+  <a href="clients.php"><button type="button" class="btn btn-sm btn-primary btn-back">Zurück</button></a><br />
+
   <h2>Kundeninformationen</h2>
-
-    <a href="clients.php"><button type="button" class="btn btn-sm btn-primary btn-back">Zurück</button></a>
-
-    <br />
 
     <!-- Kunde-bearbeiten-Button -->
     <a href="clientedit.php"><button type="button" class="btn btn-primary">Kunden bearbeiten</button></a>
 
-    <!-- Kunde-importieren-Button -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#importClientModal">Kunden importieren</button>
-
     <!-- Kunde-exportieren-Button -->
     <button type="button" class="btn btn-primary" href="">Kunden exportieren</button>
 
-    <!-- Kunden-importieren-Modal -->
-    <div class="modal fade" id="importClientModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="importClientModalLabel">Kunden importieren</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form method="get" action="">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input">
-                  Mit aktuellem Kunden zusammenlegen
-                </label>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputFile">Kunden importieren</label>
-                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
-            <button type="submit" class="btn btn-primary" id="modal_submit_button">Importieren</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php require_once("src/assets/modals/import-merge-client-modal.php"); ?>
 
-  <hr />
+    <hr />
 
   <!-- Kunden-Grundinformationen -->
   <section id="tabellen_kundeninformationen">
@@ -62,44 +27,63 @@
           <h4>Grundinformationen</h4>
           <table class="table table-striped">
             <tr>
-              <td>ID:</td>
+              <td>Client-ID:</td>
               <td>10</td>
             </tr>
             <tr>
-              <td>Name:</td>
+              <td>Client-Name:</td>
               <td>Mediaintown</td>
             </tr>
             <tr>
-              <td>Description:</td>
-              <td></td>
+              <td>Beschreibung:</td>
+              <td>Dies ist eine Agentur mit vielen Kunden.</td>
             </tr>
             <tr>
-              <td>Active:</td>
-              <td></td>
+              <td>Aktiv:</td>
+              <td>
+                <input disabled checked type="checkbox"></input>
+              </td>
             </tr>
             <tr>
               <td>Client Business Ref:</td>
               <td>JW-000047258</td>
             </tr>
             <tr>
-              <td>Agency:</td>
-              <td></td>
+              <td>Agentur:</td>
+              <td>
+                <input disabled checked type="checkbox"></input>
+              </td>
             </tr>
             <tr>
-              <td>Connection Type:</td>
+              <td>Verbindungs-Typ:</td>
               <td>HTTP</td>
             </tr>
             <tr>
-              <td>Parent ID:</td>
-              <td>1</td>
+              <td>Parent-Name:</td>
+              <td>Jobware Mandant Default</td>
             </tr>
             <tr>
-              <td>Parent Name:</td>
-              <td>Default client</td>
+              <td>Parent-ID:</td>
+              <td>15346</td>
+            </tr>
+          </table>
+          <h4>Client-Historie</h4>
+          <table class="table table-striped">
+            <tr>
+              <td>Erstellungsdatum:</td>
+              <td>30.01.2018 15:22 Uhr</td>
             </tr>
             <tr>
-              <td>Date Created:</td>
-              <td>26.07.2017</td>
+              <td>Ersteller:</td>
+              <td>Lars Reißig</td>
+            </tr>
+            <tr>
+              <td>Letzte Bearbeitung:</td>
+              <td>31.01.2018 16:23 Uhr</td>
+            </tr>
+            <tr>
+              <td>Ersteller:</td>
+              <td>Ruben Winkler</td>
             </tr>
           </table>
         </div>
@@ -159,7 +143,7 @@
             </tr>
             <tr>
               <td>Config:</td>
-              <td>[ { "contentType": "XML", "xmlTag": "jobs", "rootContent": {"xpath": "//job", "xmlTag": "jobSet"} } ]</td>
+              <td>[{<br> "contentType": "XML",<br> "xmlTag": "jobs",<br> "rootContent": {<br> "xpath": "//job",<br> "xmlTag": "jobSet"<br>}<br> } ]</td>
             </tr>
           </table>
         </div>
@@ -176,7 +160,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 no-padding">
-          <table class="table table-striped">
+          <table class="table table-striped table-not-full-width">
              <thead>
                 <tr>
                    <th>
@@ -206,10 +190,9 @@
                    <td>client.additionalBeschreibung.template</td>
                    <td>client.beschreibung.text</td>
                    <td>
-                      <p>Hallo</p>
-                      <p>#if ($vh.checkXPath('xml.anzeigen_titel.XPath'))</p>
-                      <p>Anzeigen Titel: $vh.resolveXPath('xml.anzeigen_titel.XPath')</p>
-                      <p>#end</p>
+                      <p>#if ($vh.checkXPath('xml.anzeigen_titel.XPath'))<br>
+                      Anzeigen Titel: $vh.resolveXPath('xml.anzeigen_titel.XPath')<br>
+                      #end</p>
                    </td>
                    <td>&nbsp;</td>
                    <td>
@@ -325,7 +308,7 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Abbrechen</button>
           <button type="submit" class="btn btn-primary" id="modal_submit_button">Speichern</button>
         </div>
       </div>
@@ -734,7 +717,7 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Abbrechen</button>
           <button type="submit" class="btn btn-primary" id="modal_submit_button">Speichern</button>
         </div>
       </div>
@@ -757,7 +740,7 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Abbrechen</button>
           <button type="submit" class="btn btn-primary" id="modal_submit_button">Löschen</button>
         </div>
       </div>
@@ -780,7 +763,7 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Abbrechen</button>
           <button type="submit" class="btn btn-primary" id="modal_submit_button">Löschen</button>
         </div>
       </div>

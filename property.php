@@ -1,4 +1,4 @@
-<?php $page_title = "Eigenschaften | Jarvis" ?>
+<?php $page_title = "Properties | Jarvis" ?>
 <?php require_once("src/assets/head.php"); ?>
 <?php require_once("src/assets/navbar.php"); ?>
 
@@ -58,7 +58,7 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Abbrechen</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Abbrechen</button>
           <button type="submit" class="btn btn-primary" id="modal_submit_button">Erstellen</button>
         </div>
       </div>

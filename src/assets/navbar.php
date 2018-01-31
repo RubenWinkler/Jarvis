@@ -3,7 +3,7 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.php">
     <img src="./src/img/Jobware-Logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo von Jobware Online-Service GmbH">
     Jarvis
   </a>
@@ -13,7 +13,7 @@
         <a class="nav-link" href="index.php">Dashboard</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="clients.php">Clientverwaltung</a>
+        <a class="nav-link" href="clientmanagement.php">Clientverwaltung</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="synchronizations.php">Synchronisationen</a>

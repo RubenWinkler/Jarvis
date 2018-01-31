@@ -1,4 +1,4 @@
-<?php $page_title = "Kundeninformationen | Jarvis" ?>
+<?php $page_title = "Client | Jarvis" ?>
 <?php require_once("src/assets/head.php"); ?>
 <?php require_once("src/assets/navbar.php"); ?>
 
@@ -80,7 +80,7 @@
 		<div class="form-group row">
 			<div class="offset-sm-2 col-sm-10">
 				<button type="submit" class="btn btn-primary" id="client_edit_save">Speichern</button>
-				<button type="submit" class="btn btn-secondary" id="client_edit_cancel">Abbrechen</button>
+				<button type="submit" class="btn btn-primary" id="client_edit_cancel">Abbrechen</button>
 			</div>
 		</div>
 	</form>

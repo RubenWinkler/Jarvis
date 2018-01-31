@@ -1,4 +1,4 @@
-<?php $page_title = "Eigenschaften | Jarvis" ?>
+<?php $page_title = "xPaths | Jarvis" ?>
 <?php require_once("src/assets/head.php"); ?>
 <?php require_once("src/assets/navbar.php"); ?>
 
