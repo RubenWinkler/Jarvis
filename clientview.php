@@ -82,7 +82,7 @@
               <td>31.01.2018 16:23 Uhr</td>
             </tr>
             <tr>
-              <td>Ersteller:</td>
+              <td>Bearbeiter:</td>
               <td>Ruben Winkler</td>
             </tr>
           </table>

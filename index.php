@@ -6,7 +6,7 @@
 <main class="container-fluid">
 
 <div class="row">
-  <div class="col-4">
+  <div class="col-6 col-lg-4">
     <div class="card">
       <div class="card-block">
         <h3 class="card-title">Clientverwaltung</h3>
@@ -14,34 +14,34 @@
         <?php require_once("src/assets/modals/create-client-modal.php"); ?>
         <?php require_once("src/assets/modals/import-client-modal.php"); ?>
         <br>
-        <a href="clientmanagement.php" class="btn btn-primary">Clients ansehen</a>
+        <a href="clientmanagement.php" class="btn btn-primary">Clients ansehen  <i class="fa fa-eye"></i></a>
       </div>
     </div>
   </div>
-  <div class="col-4">
+  <div class="col-6 col-lg-4">
     <div class="card">
       <div class="card-block">
         <h3 class="card-title">Synchronisationen & Anzeigen</h3>
         <p class="card-text">Hier findest du alle Optionen, um Anzeigen zu verwalten.</p>
-        <a href="synchronizations.php" class="btn btn-primary">Synchronisationen ansehen</a><br>
-        <a href="advertisements.php" class="btn btn-primary">Anzeigen ansehen</a>
+        <a href="synchronizations.php" class="btn btn-primary">Synchronisationen ansehen <i class="fa fa-eye"></i></a><br>
+        <a href="advertisements.php" class="btn btn-primary">Anzeigen ansehen <i class="fa fa-eye"></i></a>
       </div>
     </div>
   </div>
-  <div class="col-4">
+  <div class="col-12 col-lg-4">
     <div class="card">
       <div class="card-block">
         <h3 class="card-title">Ticketverwaltung & Sonstiges</h3>
         <p class="card-text">Hier findest du weitere Optionen rund um das Thema Jarvis.</p>
-        <a href="#" class="btn btn-primary">Tickets ansehen</a><br>
-        <a href="#" class="btn btn-primary">Dokumentation ansehen</a>
+        <a href="#" class="btn btn-primary">Tickets ansehen  <i class="fa fa-eye"></i></a><br>
+        <a href="#" class="btn btn-primary">Dokumentation ansehen  <i class="fa fa-eye"></i></a>
       </div>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-6">
+  <div class="col-12 col-xl-6">
     <h3>Zuletzt erstellte Clients</h3>
     <table class="table table-striped">
 
@@ -55,6 +55,9 @@
              </th>
              <th>
                 <a href="">Typ</a>
+             </th>
+             <th>
+                <a href="">Datum</a>
              </th>
              <th>
                 <a href="">Parent</a>
@@ -72,6 +75,7 @@
                <a href="clientview.php">Lebenshilfe Starnberg e.V.</a>
              </td>
              <td>Direktkunde</td>
+             <td>31.01.2018</td>
              <td>
                <a href="clientview.php">Jobware Mandant Default</a>
              </td>
@@ -101,6 +105,7 @@
                <a href="clientview.php">Königsteiner Basic</a>
              </td>
              <td>Dienstleister</td>
+             <td>31.01.2018</td>
              <td>
                <a href="clientview.php">Default-Client</a>
              </td>
@@ -130,6 +135,7 @@
                <a href="clientview.php">AWS Personalmarketing GmbH</a>
              </td>
              <td>Agentur</td>
+             <td>31.01.2018</td>
              <td>
                <a href="clientview.php">Königsteiner Basic</a>
              </td>
@@ -159,6 +165,7 @@
                <a href="clientview.php">Chirurgische Klinik Seefeld</a>
              </td>
              <td>Direktkunde</td>
+             <td>31.01.2018</td>
              <td>
               <a href="clientview.php">Jobware Mandant Default</a>
              </td>
@@ -188,6 +195,7 @@
                <a href="clientview.php">Jobware Mandant Default</a>
              </td>
              <td>Mandant</td>
+             <td>31.01.2018</td>
              <td>
                <a href="clientview.php">Default-Client</a>
              </td>
@@ -217,6 +225,7 @@
                <a href="clientview.php">Default-Client</a>
              </td>
              <td></td>
+             <td>31.01.2018</td>
              <td></td>
              <td>
                <span>
@@ -244,6 +253,7 @@
                <a href="clientview.php">Haufe-Lexware GmbH</a>
              </td>
              <td>Direktkunde</td>
+             <td>31.01.2018</td>
              <td>
               <a href="clientview.php">Jobware Mandant Default</a>
              </td>
@@ -273,6 +283,7 @@
                <a href="clientview.php">Hays AG (VDI)</a>
              </td>
              <td>Direktkunde</td>
+             <td>31.01.2018</td>
              <td>
               <a href="clientview.php">VDI Mandant Default</a>
              </td>
@@ -298,7 +309,7 @@
 
     </table>
   </div>
-  <div class="col-6">
+  <div class="col-12 col-xl-6">
     <h3>Fehlgeschlagene Synchronisationen</h3>
     <table class="table table-striped">
       <thead>
@@ -307,25 +318,19 @@
               <a href="">ID</a>
             </th>
             <th>
-              <a href="">Kunde</a>
+              <a href="">Client</a>
             </th>
             <th>
               <a href="">Datum</a>
             </th>
             <th>
-              <a href="">Uhrzeit</a>
+              <a href="">Zeit</a>
             </th>
             <th>
-              <a href="">Anzeigen</a>
+              <a href="">Ads</a>
             </th>
             <th>
-              <a href="">aktiv</a>
-            </th>
-            <th>
-              <a href="">Bestand</a>
-            </th>
-            <th>
-              <a href="">Neuanlagen</a>
+              <a href="">Neu</a>
             </th>
             <th>
               <a href="">Updates</a>
@@ -346,8 +351,6 @@
             <td>30.01.2018</td>
             <td>18:36</td>
             <td>36</td>
-            <td>36</td>
-            <td>10</td>
             <td>12</td>
             <td>6</td>
             <td>8</td>
@@ -360,8 +363,6 @@
             <td>30.01.2018</td>
             <td>15:36</td>
             <td>36</td>
-            <td>36</td>
-            <td>10</td>
             <td>12</td>
             <td>6</td>
             <td>8</td>
@@ -378,8 +379,6 @@
             <td>30.01.2018</td>
             <td>09:36</td>
             <td>36</td>
-            <td>36</td>
-            <td>10</td>
             <td>12</td>
             <td>6</td>
             <td>8</td>
@@ -396,8 +395,6 @@
             <td>29.01.2018</td>
             <td>18:36</td>
             <td>36</td>
-            <td>36</td>
-            <td>10</td>
             <td>12</td>
             <td>6</td>
             <td>8</td>
@@ -414,8 +411,6 @@
             <td>29.01.2018</td>
             <td>09:36</td>
             <td>36</td>
-            <td>36</td>
-            <td>10</td>
             <td>12</td>
             <td>6</td>
             <td>8</td>
@@ -432,8 +427,6 @@
             <td>28.01.2018</td>
             <td>18:36</td>
             <td>36</td>
-            <td>36</td>
-            <td>10</td>
             <td>12</td>
             <td>6</td>
             <td>8</td>

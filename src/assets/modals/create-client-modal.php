@@ -1,5 +1,5 @@
 <!-- Neuen-Kunde-erstellen-Button -->
-<button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#newClientModal">Neuen Client erstellen</button>
+<button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#newClientModal">Neuer Client <i class="fa fa-plus"></i></button>
 
 <!-- Neuen-Kunden-erstellen-Modal -->
 <div class="modal fade" id="newClientModal" tabindex="-1" role="dialog" aria-labelledby="newClientModalLabel" aria-hidden="true">

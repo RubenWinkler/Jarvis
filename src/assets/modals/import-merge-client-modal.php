@@ -1,5 +1,5 @@
 <!-- Kunde-importieren-Button -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#importClientModal">Client importieren</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#importClientModal">Client importieren <i class="fa fa-download"></i></button>
 
 <!-- Kunden-importieren-Modal -->
 <div class="modal fade" id="importClientModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">

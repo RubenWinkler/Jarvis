@@ -1,5 +1,5 @@
 <!-- Client-Filter-Button -->
-<button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#clientFilterModal">Filter</button>
+<button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#clientFilterModal">Filter <i class="fa fa-filter"></i></button>
 
 <!-- Client-Filter -->
 <div class="modal fade" id="clientFilterModal" tabindex="-1" role="dialog" aria-labelledby="clientFilterModal" aria-hidden="true">
