@@ -4,8 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="index.php">
-    <img src="./src/img/Jobware-Logo.png" width="30" height="30" class="d-inline-block align-top" alt="Logo von Jobware Online-Service GmbH">
-    Jarvis
+    <img src="./src/img/Jarvis-Logo.png" height="50px" class="d-inline-block align-top" alt="Logo von Jobware Online-Service GmbH">
   </a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">

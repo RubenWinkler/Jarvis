@@ -7,7 +7,7 @@
 
   <h2>Synchronisationen</h2>
 
-  <?php require_once("src/assets/modals/client-filter.php"); ?>
+  <?php require_once("src/assets/modals/synchronizations-filter.php"); ?>
 
   <?php require("src/assets/pagination.php"); ?>
 

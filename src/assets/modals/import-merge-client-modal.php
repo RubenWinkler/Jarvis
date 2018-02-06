@@ -3,7 +3,7 @@
 
 <!-- Kunden-importieren-Modal -->
 <div class="modal fade" id="importClientModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="importClientModalLabel">Kunden importieren</h5>

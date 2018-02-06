@@ -1,4 +1,4 @@
-<?php $page_title = "Kundeninformationen | Jarvis" ?>
+<?php $page_title = "Dashboard | Jarvis" ?>
 <?php require_once("src/assets/head.php"); ?>
 <?php require_once("src/assets/navbar.php"); ?>
 
@@ -41,146 +41,261 @@
 </div>
 
 <div class="row">
-  <div class="col-3">
-    <h3>Jarvis-Bericht</h3>
-    <table class="table table-striped">
-      <tr>
-        <th>
-          Clients (gesamt):
-        </th>
-        <td>
-          967
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Clients (aktiv):
-        </th>
-        <td>
-          156
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Direktkunden (gesamt):
-        </th>
-        <td>
-          365
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Direktkunden (aktiv):
-        </th>
-        <td>
-          166
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Agenturen (gesamt):
-        </th>
-        <td>
-          72
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Agenturen (aktiv):
-        </th>
-        <td>
-          37
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Backfill (gesamt):
-        </th>
-        <td>
-          21
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Backfill (aktiv):
-        </th>
-        <td>
-          13
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Mandanten:
-        </th>
-        <td>
-          11
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Dienstleister:
-        </th>
-        <td>
-          34
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Fehlerhafte Clients:
-        </th>
-        <td>
-          3
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="col-3">
+  <div class="col-6">
     <h3>Zuletzt erstellte Clients</h3>
     <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Typ</th>
-          <th>Datum</th>
-        </tr>
-      </thead>
-      <tr>
-        <td><a href="clientview.php">13271</a></td>
-        <td><a href="clientview.php">Lebenshilfe Starnberg e.V.</a></td>
-        <td>Direktkunde</td>
-        <td>31.01.2018</td>
-      </tr>
-      <tr>
-        <td><a href="clientview.php">14659</a></td>
-        <td><a href="clientview.php">Königsteiner Basic</a></td>
-        <td>Dienstleister</td>
-        <td>31.01.2018</td>
-      </tr>
-      <tr>
-        <td><a href="clientview.php">13271</a></td>
-        <td><a href="clientview.php">AWS Personalmarketing GmbH</a></td>
-        <td>Agentur</td>
-        <td>31.01.2018</td>
-      </tr>
-      <tr>
-        <td><a href="clientview.php">13554</a></td>
-        <td><a href="clientview.php">Chirurgische Klinik Seefeld</a></td>
-        <td>Direktkunde</td>
-        <td>31.01.2018</td>
-      </tr>
-      <tr>
-        <td><a href="clientview.php">11234</a></td>
-        <td><a href="clientview.php">Jobware Mandant Default</a></td>
-        <td>Mandant</td>
-        <td>31.01.2018</td>
-      </tr>
-      <tr>
-        <td><a href="clientview.php">17946</a></td>
-        <td><a href="clientview.php">Haufe-Lexware GmbH</a></td>
-        <td>Direktkunde</td>
-        <td>31.01.2018</td>
-      </tr>
+
+       <thead>
+          <tr>
+             <th>
+                <a href="">ID</a>
+             </th>
+             <th>
+                <a href="">Name</a>
+             </th>
+             <th>
+                <a href="">Typ</a>
+             </th>
+             <th>
+                <a href="">Parent</a>
+             </th>
+             <th>Aktionen</th>
+          </tr>
+       </thead>
+
+       <tbody>
+          <tr>
+             <td>
+                <a href="clientview.php">13271</a>
+             </td>
+             <td>
+               <a href="clientview.php">Lebenshilfe Starnberg e.V.</a>
+             </td>
+             <td>Direktkunde</td>
+             <td>
+               <a href="clientview.php">Jobware Mandant Default</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">14659</a>
+             </td>
+             <td>
+               <a href="clientview.php">Königsteiner Basic</a>
+             </td>
+             <td>Dienstleister</td>
+             <td>
+               <a href="clientview.php">Default-Client</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">13271</a>
+             </td>
+             <td>
+               <a href="clientview.php">AWS Personalmarketing GmbH</a>
+             </td>
+             <td>Agentur</td>
+             <td>
+               <a href="clientview.php">Königsteiner Basic</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">13554</a>
+             </td>
+             <td>
+               <a href="clientview.php">Chirurgische Klinik Seefeld</a>
+             </td>
+             <td>Direktkunde</td>
+             <td>
+              <a href="clientview.php">Jobware Mandant Default</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">11234</a>
+             </td>
+             <td>
+               <a href="clientview.php">Jobware Mandant Default</a>
+             </td>
+             <td>Mandant</td>
+             <td>
+               <a href="clientview.php">Default-Client</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">1</a>
+             </td>
+             <td>
+               <a href="clientview.php">Default-Client</a>
+             </td>
+             <td></td>
+             <td></td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">17946</a>
+             </td>
+             <td>
+               <a href="clientview.php">Haufe-Lexware GmbH</a>
+             </td>
+             <td>Direktkunde</td>
+             <td>
+              <a href="clientview.php">Jobware Mandant Default</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <a href="clientview.php">15564</a>
+             </td>
+             <td>
+               <a href="clientview.php">Hays AG (VDI)</a>
+             </td>
+             <td>Direktkunde</td>
+             <td>
+              <a href="clientview.php">VDI Mandant Default</a>
+             </td>
+             <td>
+               <span>
+                 <a href="clientview.php">
+                   <i class="fa fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
+                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                 </button>
+               </span>
+             </td>
+          </tr>
+       </tbody>
+
     </table>
   </div>
   <div class="col-6">
