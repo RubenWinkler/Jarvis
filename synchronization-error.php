@@ -109,49 +109,49 @@
             <th>
               <a rel="nofollow" href="">Anzeigen-ID</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Anzeigentitel</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Client</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Typ</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Jarvis-Status</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Tapas-Status</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Status</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">SST ID</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>Aktionen</th>
@@ -170,7 +170,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -187,7 +187,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -204,7 +204,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -221,7 +221,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -238,7 +238,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>

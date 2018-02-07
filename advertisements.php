@@ -20,73 +20,73 @@
             <th>
               <a href="">
                 ID
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Datum
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Uhrzeit
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Aktiv
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Typ
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Anzeigen-ID
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Anzeigentitel
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Inserent
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Kunde
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Jarvis-Status
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 Tapas-Status
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a href="">
                 SST-ID
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>Aktion</th>
@@ -111,12 +111,12 @@
            <td>
              <span>
                <a href="clientview.php">
-                 <i class="fas fa-eye" aria-hidden="true"></i>
+                 <i class="fas fa-eye"></i>
                </a>
              </span>
              <span>
                <a href="">
-                 <i class="fas fa-bug" aria-hidden="true"></i>
+                 <i class="fas fa-bug"></i>
                </a>
              </span>
            </td>
@@ -139,12 +139,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -167,12 +167,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -195,12 +195,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -223,12 +223,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -251,12 +251,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -279,12 +279,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -307,12 +307,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -335,12 +335,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -363,12 +363,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>
@@ -391,12 +391,12 @@
             <td>
               <span>
                 <a href="clientview.php">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
               <span>
                 <a href="">
-                  <i class="fas fa-bug" aria-hidden="true"></i>
+                  <i class="fas fa-bug"></i>
                 </a>
               </span>
             </td>

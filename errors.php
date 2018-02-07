@@ -12,7 +12,7 @@
     <ul class="pagination pagination-sm">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
+          <span></span>
           <span class="sr-only">Previous</span>
         </a>
       </li>
@@ -29,7 +29,7 @@
       <li class="page-item"><a class="page-link" title="Gehe zu Seite 54" href="/jarvis-service-web/clients.grid.pager/54">54</a></li>
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
+          <span></span>
           <span class="sr-only">Next</span>
         </a>
       </li>
@@ -45,49 +45,49 @@
             <th>
               <a rel="nofollow" href="">Id</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Error Label</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Category</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Sub Category</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Agency Id</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">External Client Id</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Advertisement External Id</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Advertisement Id</a>
               <a rel="nofollow" href="">
-                <i class="fas fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort"></i>
               </a>
             </th>
             <th>Action</th>
@@ -99,7 +99,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -107,7 +107,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -117,7 +117,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -125,7 +125,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -135,7 +135,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -143,7 +143,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -153,7 +153,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -161,7 +161,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -171,7 +171,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -179,7 +179,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -189,7 +189,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -197,7 +197,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -207,7 +207,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -215,7 +215,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -225,7 +225,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -233,7 +233,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -243,7 +243,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -251,7 +251,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -261,7 +261,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -269,7 +269,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -279,7 +279,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -287,7 +287,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -297,7 +297,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -305,7 +305,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -315,7 +315,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -323,7 +323,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -333,7 +333,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -341,7 +341,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -351,7 +351,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -359,7 +359,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -369,7 +369,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -377,7 +377,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -387,7 +387,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -395,7 +395,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -405,7 +405,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -413,7 +413,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -423,7 +423,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -431,7 +431,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -441,7 +441,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -449,7 +449,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -459,7 +459,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -467,7 +467,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -477,7 +477,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -485,7 +485,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -495,7 +495,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -503,7 +503,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -513,7 +513,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -521,7 +521,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -531,7 +531,7 @@
             <td>Aug 11, 2017 05:01:05</td>
             <td>javax.xml.soap.SOAPException: javax.xml.ws.WebServiceException: Could not send Message.</td>
             <td>DefaultTapasWorkflow</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>10176</td>
             <td>33050</td>
             <td>46519</td>
@@ -539,7 +539,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fas fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye"></i>
                 </a>
               </span>
             </td>
@@ -554,7 +554,7 @@
     <ul class="pagination pagination-sm">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
+          <span></span>
           <span class="sr-only">Previous</span>
         </a>
       </li>
@@ -571,7 +571,7 @@
       <li class="page-item"><a class="page-link" href="#">54</a></li>
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
+          <span></span>
           <span class="sr-only">Next</span>
         </a>
       </li>

@@ -5,17 +5,18 @@
 <!-- Hauptbereich -->
 <main class="container-fluid">
 
-  <a href="clients.php"><button type="button" class="btn btn-sm btn-primary btn-back">Zurück</button></a><br />
-
-  <h2>Kundeninformationen</h2>
+  <h2>Clientinformationen</h2>
 
     <!-- Kunde-bearbeiten-Button -->
-    <a href="clientedit.php"><button type="button" class="btn btn-primary">Kunden bearbeiten</button></a>
+    <a href="clientedit.php"><button type="button" class="btn btn-primary">Kunden bearbeiten  <i class="fas fa-edit"></i></button></a>
 
     <!-- Kunde-exportieren-Button -->
-    <button type="button" class="btn btn-primary" href="">Kunden exportieren</button>
+    <button type="button" class="btn btn-primary" href="">Kunden exportieren  <i class="fas fa-upload"></i></button>
 
     <?php require_once("src/assets/modals/import-merge-client-modal.php"); ?>
+
+    <!-- Kunde-importieren-Button -->
+    <button type="button" class="btn btn-primary" onclick="swal('Fehler!', 'Synchronisierung konnte nicht gestartet werden, weil: ###FEHLERMELDUNG###', 'error');">Synchronisieren <i class="fas fa-sync"></i></button>
 
     <hr />
 
@@ -166,20 +167,20 @@
                    <th>
                      <a rel="nofollow" href="">Property Name</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Label</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>Value</th>
                    <th>
                      <a rel="nofollow" href="">Property Description</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th class="action">Action</th>
@@ -194,16 +195,16 @@
                       Anzeigen Titel: $vh.resolveXPath('xml.anzeigen_titel.XPath')<br>
                       #end</p>
                    </td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td>
                      <span>
                        <a data-toggle="modal" data-target="#propertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -212,16 +213,16 @@
                    <td>client.tempate.attachment</td>
                    <td>client.tempate.attachment</td>
                    <td><a href="">Diakonie-Hasenbergl.zip(application/x-zip-compressed)</a></td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td>
                      <span>
                        <a data-toggle="modal" data-target="#propertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -232,16 +233,16 @@
                    <td>
                       <p>diak_hasenbergl</p>
                    </td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td>
                      <span>
                        <a data-toggle="modal" data-target="#propertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -254,13 +255,13 @@
   </section>
 
   <!-- Eigenschaften-editieren-Modal -->
-  <div class="modal fade" id="propertyModal" tabindex="-1" role="dialog" aria-labelledby="propertyModalLabel" aria-hidden="true">
+  <div class="modal fade" id="propertyModal" tabindex="-1" role="dialog" aria-labelledby="propertyModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="propertyModalLabel">Eigenschaft-Dialog</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span></span>
           </button>
         </div>
         <div class="modal-body">
@@ -327,67 +328,67 @@
                    <th>
                      <a rel="nofollow" href="">Property Name</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Label</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Client Label</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Required</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Ignore For Compare</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Type</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Xpath</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Description</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Date Pattern</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Script Type</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Unescape Value</a>
                      <a rel="nofollow" href="">
-                       <i class="fas fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort"></i>
                      </a>
                    </th>
                    <th class="action">Action</th>
@@ -397,29 +398,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -427,29 +428,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -457,29 +458,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -487,29 +488,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -517,29 +518,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -547,29 +548,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -577,29 +578,29 @@
                 <tr>
                    <td>xml.resource1.XPath</td>
                    <td>xml.resource1.XPath</td>
-                   <td>&nbsp;</td>
+                   <td></td>
                    <td><input disabled="disabled" checked="checked" name="checkbox_2" type="checkbox"></input></td>
                    <td><input disabled="disabled" name="checkbox_3" type="checkbox"></input></td>
                    <td>String</td>
                    <td>//ANZEIGE</td>
-                   <td>&nbsp;</td>
-                   <td>&nbsp;</td>
+                   <td></td>
+                   <td></td>
                    <td>Bsh</td>
                    <td><input disabled="disabled" name="checkbox_4" type="checkbox"></input></td>
                    <td class="icons-td">
                      <span>
                        <a href="debug.php">
-                         <i class="fas fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug"></i>
                        </a>
                      </span>
                      <span>
-                       <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                       <a data-toggle="modal" data-target="#propertyModal">
+                         <i class="fas fa-edit"></i>
                        </a>
                      </span>
                      <span>
-                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fas fa-trash-o" aria-hidden="true"></i>
+                       <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
+                         <i class="fas fa-trash-alt"></i>
                        </button>
                      </span>
                    </td>
@@ -612,13 +613,13 @@
   </section>
 
   <!-- Xpath-editieren-Modal -->
-  <div class="modal fade" id="newXpathPropertyModal" tabindex="-1" role="dialog" aria-labelledby="newClientModalLabel" aria-hidden="true">
+  <div class="modal fade" id="newXpathPropertyModal" tabindex="-1" role="dialog" aria-labelledby="newClientModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="newClientModalLabel">Neue XPath Eigenschaft</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span></span>
           </button>
         </div>
         <div class="modal-body">
@@ -725,13 +726,13 @@
   </div>
 
   <!-- Eigenschaft-löschen-Modal -->
-  <div class="modal fade" id="deletePropertyModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
+  <div class="modal fade" id="deletePropertyModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="deletePropertyModalLabel">Eigenschaft wirklich löschen?</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span></span>
           </button>
         </div>
         <div class="modal-body">
@@ -748,13 +749,13 @@
   </div>
 
   <!-- XPath-löschen-Modal -->
-  <div class="modal fade" id="deleteXpathModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
+  <div class="modal fade" id="deleteXpathModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="deleteXpathModalLabel">XPath wirklich löschen?</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span></span>
           </button>
         </div>
         <div class="modal-body">

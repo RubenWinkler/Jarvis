@@ -2,13 +2,13 @@
 <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#newClientModal">Neuer Client <i class="fas fa-plus"></i></button>
 
 <!-- Neuen-Kunden-erstellen-Modal -->
-<div class="modal fade" id="newClientModal" tabindex="-1" role="dialog" aria-labelledby="newClientModalLabel" aria-hidden="true">
+<div class="modal fade" id="newClientModal" tabindex="-1" role="dialog" aria-labelledby="newClientModalLabel">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="newClientModalLabel">Neuen Client erstellen</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span></span>
         </button>
       </div>
       <div class="modal-body">

@@ -2,13 +2,13 @@
 <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#clientFilterModal">Filter <i class="fas fa-filter"></i></button>
 
 <!-- Client-Filter -->
-<div class="modal fade" id="clientFilterModal" tabindex="-1" role="dialog" aria-labelledby="clientFilterModal" aria-hidden="true">
+<div class="modal fade" id="clientFilterModal" tabindex="-1" role="dialog" aria-labelledby="clientFilterModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="importClientModalLabel">Synchronisationen durchsuchen</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"></span>
+          <span></span>
         </button>
       </div>
       <div class="modal-body">

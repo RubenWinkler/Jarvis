@@ -1,16 +1,16 @@
 <!-- Kunden-löschen-Button -->
 <button type="button" class="no-btn modal-button" data-toggle="modal" data-target="#deleteClientModal">
-  <i class="fas fa-trash-alt" aria-hidden="true"></i>
+  <i class="fas fa-trash-alt"></i>
 </button>
 
 <!-- Kunden-löschen-Modal -->
-<div class="modal fade" id="deleteClientModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel" aria-hidden="true">
+<div class="modal fade" id="deleteClientModal" tabindex="-1" role="dialog" aria-labelledby="importClientModalLabel">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="deleteClientModalLabel">Kunden wirklich löschen?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span></span>
         </button>
       </div>
       <div class="modal-body">

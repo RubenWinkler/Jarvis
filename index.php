@@ -14,7 +14,7 @@
         <?php require_once("src/assets/modals/create-client-modal.php"); ?>
         <?php require_once("src/assets/modals/import-client-modal.php"); ?>
         <br>
-        <a href="clientmanagement.php" class="btn btn-primary">Clients ansehen  <i class="fas fa-eye"></i></a>
+        <a href="clientmanagement.php" class="btn btn-primary">Clients ansehen</a>
       </div>
     </div>
   </div>
@@ -23,8 +23,8 @@
       <div class="card-block">
         <h3 class="card-title">Synchronisationen & Anzeigen</h3>
         <p class="card-text">Hier findest du alle Optionen, um Anzeigen zu verwalten.</p>
-        <a href="synchronizations.php" class="btn btn-primary">Synchronisationen ansehen <i class="fas fa-eye"></i></a><br>
-        <a href="advertisements.php" class="btn btn-primary">Anzeigen ansehen <i class="fas fa-eye"></i></a>
+        <a href="synchronizations.php" class="btn btn-primary">Synchronisationen ansehen</a><br>
+        <a href="advertisements.php" class="btn btn-primary">Anzeigen ansehen</a>
       </div>
     </div>
   </div>
@@ -33,8 +33,8 @@
       <div class="card-block">
         <h3 class="card-title">Ticketverwaltung & Sonstiges</h3>
         <p class="card-text">Hier findest du weitere Optionen rund um das Thema Jarvis.</p>
-        <a href="#" class="btn btn-primary">Tickets ansehen  <i class="fas fa-eye"></i></a><br>
-        <a href="#" class="btn btn-primary">Dokumentation ansehen  <i class="fas fa-eye"></i></a>
+        <a href="#" class="btn btn-primary">Tickets ansehen</a><br>
+        <a href="#" class="btn btn-primary">Dokumentation ansehen</a>
       </div>
     </div>
   </div>
@@ -82,17 +82,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -112,17 +112,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -142,17 +142,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -172,17 +172,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -202,17 +202,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -230,17 +230,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -260,17 +260,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -290,17 +290,17 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
                  <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                   <i class="fas fa-trash-alt"></i>
                  </button>
                </span>
              </td>
@@ -358,7 +358,7 @@
             <td>
               <span>
                 <a href="synchronization-error.php">
-                  <i class="fas fa-list" aria-hidden="true"></i>
+                  <i class="fas fa-list"></i>
                 </a>
               </span>
             </td>
@@ -376,7 +376,7 @@
             <td>
               <span>
                 <a href="synchronization-error.php">
-                  <i class="fas fa-list" aria-hidden="true"></i>
+                  <i class="fas fa-list"></i>
                 </a>
               </span>
             </td>
@@ -394,7 +394,7 @@
             <td>
               <span>
                 <a href="synchronization-error.php">
-                  <i class="fas fa-list" aria-hidden="true"></i>
+                  <i class="fas fa-list"></i>
                 </a>
               </span>
             </td>
@@ -412,7 +412,7 @@
             <td>
               <span>
                 <a href="synchronization-error.php">
-                  <i class="fas fa-list" aria-hidden="true"></i>
+                  <i class="fas fa-list"></i>
                 </a>
               </span>
             </td>
@@ -430,7 +430,7 @@
             <td>
               <span>
                 <a href="synchronization-error.php">
-                  <i class="fas fa-list" aria-hidden="true"></i>
+                  <i class="fas fa-list"></i>
                 </a>
               </span>
             </td>
@@ -448,7 +448,7 @@
             <td>
               <span>
                 <a href="synchronization-error.php">
-                  <i class="fas fa-list" aria-hidden="true"></i>
+                  <i class="fas fa-list"></i>
                 </a>
               </span>
             </td>

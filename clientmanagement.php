@@ -25,49 +25,49 @@
              <th>
                 <a href="">ID</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Name</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Typ</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Client Business Ref</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Datum</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Aktiv</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Verbindungstyp</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>
                 <a href="">Parent</a>
                 <a href="">
-                  <i class="fas fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort"></i>
                 </a>
              </th>
              <th>Aktionen</th>
@@ -97,12 +97,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -132,12 +132,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -167,12 +167,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -202,12 +202,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -236,12 +236,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -269,12 +269,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -304,12 +304,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -339,12 +339,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>
@@ -374,12 +374,12 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fas fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fas fa-edit" aria-hidden="true"></i>
+                   <i class="fas fa-edit"></i>
                  </a>
                </span>
                <span>

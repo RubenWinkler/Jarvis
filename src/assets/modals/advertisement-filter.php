@@ -2,13 +2,13 @@
 <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#advertisementFilterModal">Filter <i class="fas fa-filter"></i></button>
 
 <!-- Advertisement-Filter -->
-<div class="modal fade" id="advertisementFilterModal" tabindex="-1" role="dialog" aria-labelledby="advertisementFilterModal" aria-hidden="true">
+<div class="modal fade" id="advertisementFilterModal" tabindex="-1" role="dialog" aria-labelledby="advertisementFilterModal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="advertisementFilterModal">Anzeigen durchsuchen</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"></span>
+          <span></span>
         </button>
       </div>
       <div class="modal-body">

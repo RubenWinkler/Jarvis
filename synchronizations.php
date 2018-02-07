@@ -20,67 +20,67 @@
           <th>
             <a href="">Synchronisations-ID</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">Kunde</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">Datum</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">Uhrzeit</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">Anzeigen</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">davon aktiv</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">davon im Bestand</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">davon Neuanlagen</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">davon Updates</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">davon Fehler</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>
             <a href="">Status</a>
             <a href="">
-              <i class="fas fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort"></i>
             </a>
           </th>
           <th>Aktionen</th>
@@ -102,7 +102,7 @@
           <td>
             <span>
               <a href="synchronization-in-progress.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -122,7 +122,7 @@
           <td>
             <span>
               <a href="synchronization-error.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -142,7 +142,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -162,7 +162,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -182,7 +182,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -202,7 +202,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -222,7 +222,7 @@
           <td>
             <span>
               <a href="synchronization-error.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -242,7 +242,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -262,7 +262,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -282,7 +282,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -302,7 +302,7 @@
           <td>
             <span>
               <a href="synchronization-ok.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>
@@ -322,7 +322,7 @@
           <td>
             <span>
               <a href="synchronization-error.php">
-                <i class="fas fa-list" aria-hidden="true"></i>
+                <i class="fas fa-list"></i>
               </a>
             </span>
           </td>

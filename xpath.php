@@ -18,31 +18,31 @@
         <th>
           <a rel="nofollow" href="">Id</a>
           <a rel="nofollow" href="">
-            <i class="fas fa-sort" aria-hidden="true"></i>
+            <i class="fas fa-sort"></i>
           </a>
         </th>
         <th>
           <a rel="nofollow" href="">Type</a>
           <a rel="nofollow" href="">
-            <i class="fas fa-sort" aria-hidden="true"></i>
+            <i class="fas fa-sort"></i>
           </a>
         </th>
         <th>
           <a rel="nofollow" href="">Name</a>
           <a rel="nofollow" href="">
-            <i class="fas fa-sort" aria-hidden="true"></i>
+            <i class="fas fa-sort"></i>
           </a>
         </th>
         <th>
           <a rel="nofollow" href="">Label</a>
           <a rel="nofollow" href="">
-            <i class="fas fa-sort" aria-hidden="true"></i>
+            <i class="fas fa-sort"></i>
           </a>
         </th>
         <th>
           <a rel="nofollow" href="">Description</a>
           <a rel="nofollow" href="">
-            <i class="fas fa-sort" aria-hidden="true"></i>
+            <i class="fas fa-sort"></i>
           </a>
         </th>
         <th>Action</th>
@@ -58,7 +58,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -72,7 +72,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -86,7 +86,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -100,7 +100,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -114,7 +114,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -128,7 +128,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -142,7 +142,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -156,7 +156,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -170,7 +170,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -184,7 +184,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -198,7 +198,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -212,7 +212,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -226,7 +226,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -240,7 +240,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -254,7 +254,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -268,7 +268,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -282,7 +282,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -296,7 +296,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -310,7 +310,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
@@ -324,7 +324,7 @@
         <td>
           <span>
               <a href="">
-                <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fas fa-edit"></i>
               </a>
             </span>
         </td>
