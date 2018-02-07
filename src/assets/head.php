@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
   <!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/460e1f3a96.js"></script>
+  <script src="./src/js/fontawesome/fontawesome-all.js"></script>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="./src/img/favicons/apple-touch-icon.png">

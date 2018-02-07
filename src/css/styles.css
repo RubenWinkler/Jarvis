@@ -45,6 +45,27 @@ a {
   color: #000 !important;
 }
 
+table span button:link,
+table span a:link {
+  color: #000 !important;
+}
+
+table span button:visited,
+table span a:visited {
+  color: #000 !important;
+}
+
+table span button:active,
+table span a:active {
+  color: #000 !important;
+}
+
+table span button:hover,
+table span a:hover {
+  text-decoration: none !important;
+  color: #ff5d08 !important;
+}
+
 a.page-link {
   color: #000 !important;
 }
@@ -169,8 +190,6 @@ nav a {
 
 .no-btn {
   background-color: transparent !important;
-  width: 25px !important;
-  height: 25px !important;
   padding: 0 !important;
   border: none;
 }
@@ -191,6 +210,7 @@ nav a {
 
 .table td, .table th {
     padding: 5px !important;
+    border-top: none !important;
 }
 
 #tabellen_kundeninformationen {

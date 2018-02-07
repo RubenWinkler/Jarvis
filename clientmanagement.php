@@ -25,49 +25,49 @@
              <th>
                 <a href="">ID</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Name</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Typ</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Client Business Ref</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Datum</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Aktiv</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Verbindungstyp</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>
                 <a href="">Parent</a>
                 <a href="">
-                  <i class="fa fa-sort" aria-hidden="true"></i>
+                  <i class="fas fa-sort" aria-hidden="true"></i>
                 </a>
              </th>
              <th>Aktionen</th>
@@ -97,18 +97,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -134,18 +132,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -171,18 +167,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -208,18 +202,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -244,18 +236,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -279,18 +269,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -316,18 +304,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -353,18 +339,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                 <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteClientModal">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </button>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>
@@ -390,16 +374,16 @@
              <td>
                <span>
                  <a href="clientview.php">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-edit" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
-                  <?php require_once("./src/assets/modals/delete-client-modal.php"); ?>
+                  <?php require("./src/assets/modals/delete-client-modal.php"); ?>
                </span>
              </td>
           </tr>

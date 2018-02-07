@@ -109,49 +109,49 @@
             <th>
               <a rel="nofollow" href="">Anzeigen-ID</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Anzeigentitel</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Client</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Typ</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Jarvis-Status</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Tapas-Status</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Status</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">SST ID</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>Aktionen</th>
@@ -167,7 +167,13 @@
             <td class="error">fehlgeschlagen</td>
             <td class="error">FEHLER</td>
             <td>84975812462</td>
-            <td><a href=""><i class="fa fa-bug" aria-hidden="true"></i></a></td>
+            <td>
+              <span>
+                <a href="">
+                  <i class="fas fa-bug" aria-hidden="true"></i>
+                </a>
+              </span>
+            </td>
          </tr>
          <tr>
             <td><a href="">q325jhtzjq</a></td>
@@ -178,7 +184,13 @@
             <td class="ok">importiert</td>
             <td class="ok">O.K.</td>
             <td>84975812462</td>
-            <td><a href=""><i class="fa fa-bug" aria-hidden="true"></i></a></td>
+            <td>
+              <span>
+                <a href="">
+                  <i class="fas fa-bug" aria-hidden="true"></i>
+                </a>
+              </span>
+            </td>
          </tr>
          <tr>
             <td><a href="">ad59d9asd</a></td>
@@ -189,7 +201,13 @@
             <td class="ok">importiert</td>
             <td class="ok">O.K.</td>
             <td>88132416606</td>
-            <td><a href=""><i class="fa fa-bug" aria-hidden="true"></i></a></td>
+            <td>
+              <span>
+                <a href="">
+                  <i class="fas fa-bug" aria-hidden="true"></i>
+                </a>
+              </span>
+            </td>
          </tr>
          <tr>
             <td><a href="">13fadfqa2</a></td>
@@ -200,7 +218,13 @@
             <td></td>
             <td class="error">FEHLER</td>
             <td></td>
-            <td><a href=""><i class="fa fa-bug" aria-hidden="true"></i></a></td>
+            <td>
+              <span>
+                <a href="">
+                  <i class="fas fa-bug" aria-hidden="true"></i>
+                </a>
+              </span>
+            </td>
          </tr>
          <tr>
             <td><a href="">123fdfezk</a></td>
@@ -211,7 +235,13 @@
             <td class="ok">importiert</td>
             <td class="ok">O.K.</td>
             <td>84975812462</td>
-            <td><a href=""><i class="fa fa-bug" aria-hidden="true"></i></a></td>
+            <td>
+              <span>
+                <a href="">
+                  <i class="fas fa-bug" aria-hidden="true"></i>
+                </a>
+              </span>
+            </td>
          </tr>
       </tbody>
    </table>

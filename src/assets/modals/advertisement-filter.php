@@ -1,5 +1,5 @@
 <!-- Advertisement-Filter-Button -->
-<button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#advertisementFilterModal">Filter <i class="fa fa-filter"></i></button>
+<button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#advertisementFilterModal">Filter <i class="fas fa-filter"></i></button>
 
 <!-- Advertisement-Filter -->
 <div class="modal fade" id="advertisementFilterModal" tabindex="-1" role="dialog" aria-labelledby="advertisementFilterModal" aria-hidden="true">

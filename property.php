@@ -133,41 +133,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -181,41 +157,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -229,41 +181,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -277,41 +205,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -325,41 +229,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -373,41 +253,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -421,41 +277,17 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-             </td>
-          </tr>
-          <tr>
-             <td>11</td>
-             <td>Unique client short name</td>
-             <td>xml.auftragsnummer_kunde.kontext</td>
-             <td>String</td>
-             <td>&nbsp;</td>
-             <td>
-               <span>
-                 <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                 </a>
-               </span>
-               <span>
-                 <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>
@@ -469,17 +301,185 @@
              <td>
                <span>
                  <a href="">
-                   <i class="fa fa-eye" aria-hidden="true"></i>
+                   <i class="fas fa-eye" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                  </a>
                </span>
                <span>
                  <a href="">
-                   <i class="fa fa-trash-o" aria-hidden="true"></i>
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+             </td>
+          </tr>
+          <tr>
+             <td>11</td>
+             <td>Unique client short name</td>
+             <td>xml.auftragsnummer_kunde.kontext</td>
+             <td>String</td>
+             <td>&nbsp;</td>
+             <td>
+               <span>
+                 <a href="">
+                   <i class="fas fa-eye" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
+                 </a>
+               </span>
+               <span>
+                 <a href="">
+                   <i class="fas fa-trash-o" aria-hidden="true"></i>
                  </a>
                </span>
              </td>

@@ -166,20 +166,20 @@
                    <th>
                      <a rel="nofollow" href="">Property Name</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Label</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>Value</th>
                    <th>
                      <a rel="nofollow" href="">Property Description</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th class="action">Action</th>
@@ -198,12 +198,12 @@
                    <td>
                      <span>
                        <a data-toggle="modal" data-target="#propertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -216,12 +216,12 @@
                    <td>
                      <span>
                        <a data-toggle="modal" data-target="#propertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -236,12 +236,12 @@
                    <td>
                      <span>
                        <a data-toggle="modal" data-target="#propertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deletePropertyModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -327,67 +327,67 @@
                    <th>
                      <a rel="nofollow" href="">Property Name</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Label</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Client Label</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Required</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Ignore For Compare</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Type</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Xpath</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Property Description</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Date Pattern</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Script Type</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th>
                      <a rel="nofollow" href="">Unescape Value</a>
                      <a rel="nofollow" href="">
-                       <i class="fa fa-sort" aria-hidden="true"></i>
+                       <i class="fas fa-sort" aria-hidden="true"></i>
                      </a>
                    </th>
                    <th class="action">Action</th>
@@ -409,17 +409,17 @@
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -439,17 +439,17 @@
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -469,17 +469,17 @@
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -499,17 +499,17 @@
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -529,17 +529,17 @@
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -559,17 +559,17 @@
                    <td>
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>
@@ -589,17 +589,17 @@
                    <td class="icons-td">
                      <span>
                        <a href="debug.php">
-                         <i class="fa fa-bug" aria-hidden="true"></i>
+                         <i class="fas fa-bug" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <a data-toggle="modal" data-target="#newXpathPropertyModal">
-                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                         <i class="fas fa-pencil-square-o" aria-hidden="true"></i>
                        </a>
                      </span>
                      <span>
                        <button type="button" class="no-btn" data-toggle="modal" data-target="#deleteXpathModal">
-                         <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         <i class="fas fa-trash-o" aria-hidden="true"></i>
                        </button>
                      </span>
                    </td>

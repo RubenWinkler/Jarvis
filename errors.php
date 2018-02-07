@@ -45,49 +45,49 @@
             <th>
               <a rel="nofollow" href="">Id</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Error Label</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Category</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Sub Category</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Agency Id</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">External Client Id</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Advertisement External Id</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>
               <a rel="nofollow" href="">Advertisement Id</a>
               <a rel="nofollow" href="">
-                <i class="fa fa-sort" aria-hidden="true"></i>
+                <i class="fas fa-sort" aria-hidden="true"></i>
               </a>
             </th>
             <th>Action</th>
@@ -107,7 +107,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -125,7 +125,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -143,7 +143,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -161,7 +161,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -179,7 +179,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -197,7 +197,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -215,7 +215,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -233,7 +233,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -251,7 +251,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -269,7 +269,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -287,7 +287,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -305,7 +305,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -323,7 +323,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -341,7 +341,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -359,7 +359,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -377,7 +377,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -395,7 +395,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -413,7 +413,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -431,7 +431,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -449,7 +449,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -467,7 +467,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -485,7 +485,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -503,7 +503,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -521,7 +521,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>
@@ -539,7 +539,7 @@
             <td>
               <span>
                 <a href="">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  <i class="fas fa-eye" aria-hidden="true"></i>
                 </a>
               </span>
             </td>

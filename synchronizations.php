@@ -20,67 +20,67 @@
           <th>
             <a href="">Synchronisations-ID</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">Kunde</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">Datum</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">Uhrzeit</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">Anzeigen</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">davon aktiv</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">davon im Bestand</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">davon Neuanlagen</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">davon Updates</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">davon Fehler</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>
             <a href="">Status</a>
             <a href="">
-              <i class="fa fa-sort" aria-hidden="true"></i>
+              <i class="fas fa-sort" aria-hidden="true"></i>
             </a>
           </th>
           <th>Aktionen</th>
@@ -99,7 +99,13 @@
           <td></td>
           <td></td>
           <td class="in-progress">SYNCHRONISIERT</td>
-          <td><a href="synchronization-in-progress.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-in-progress.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">842166</a></td>
@@ -113,7 +119,13 @@
           <td>6</td>
           <td>8</td>
           <td class="error">FEHLER</td>
-          <td><a href="synchronization-error.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-error.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">846264</a></td>
@@ -127,7 +139,13 @@
           <td>16</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">850362</a></td>
@@ -141,7 +159,13 @@
           <td>6</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">854460</a></td>
@@ -155,7 +179,13 @@
           <td>9</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">957811</a></td>
@@ -169,7 +199,13 @@
           <td>5</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">842973</a></td>
@@ -183,7 +219,13 @@
           <td>6</td>
           <td>8</td>
           <td class="error">FEHLER</td>
-          <td><a href="synchronization-error.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-error.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">846745</a></td>
@@ -197,7 +239,13 @@
           <td>16</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">850657</a></td>
@@ -211,7 +259,13 @@
           <td>6</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">858847</a></td>
@@ -225,7 +279,13 @@
           <td>9</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
           </tr>
         <tr>
           <td><a href="">957145</a></td>
@@ -239,7 +299,13 @@
           <td>5</td>
           <td>0</td>
           <td class="ok">O.K.</td>
-          <td><a href="synchronization-ok.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-ok.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
         <tr>
           <td><a href="">842147</a></td>
@@ -253,7 +319,13 @@
           <td>6</td>
           <td>8</td>
           <td class="error">FEHLER</td>
-          <td><a href="synchronization-error.php"><i class="fa fa-list" aria-hidden="true"></i></a></td>
+          <td>
+            <span>
+              <a href="synchronization-error.php">
+                <i class="fas fa-list" aria-hidden="true"></i>
+              </a>
+            </span>
+          </td>
         </tr>
       </tbody>
    </table>

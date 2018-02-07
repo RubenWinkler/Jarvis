@@ -1,6 +1,6 @@
 <!-- Kunden-löschen-Button -->
 <button type="button" class="no-btn modal-button" data-toggle="modal" data-target="#deleteClientModal">
-  <i class="fa fa-trash-o" aria-hidden="true"></i>
+  <i class="fas fa-trash-alt" aria-hidden="true"></i>
 </button>
 
 <!-- Kunden-löschen-Modal -->
